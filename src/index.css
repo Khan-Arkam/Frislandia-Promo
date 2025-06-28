@@ -2,15 +2,17 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "pricedown";
-    src: url("./pricedown.otf");
+  font-family: 'Carnevalee_Freakshow';
+  src: url('/fonts/CarnevaleeFreakshow.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "Carnevalee Freakshow";
-    src: url("./Carnevalee Freakshow.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Pricedown';
+  src: url('/fonts/Pricedown.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 html,
