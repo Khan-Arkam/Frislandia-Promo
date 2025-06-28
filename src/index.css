@@ -1,0 +1,51 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+@font-face {
+    font-family: "pricedown";
+    src: url("./pricedown.otf");
+}
+
+@font-face {
+    font-family: "Carnevalee Freakshow";
+    src: url("./Carnevalee Freakshow.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "pricedown";
+
+}
+
+@layer utilities {
+    .text-shadow-white {
+        text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff;
+    }
+
+    .text-shadow-black {
+        text-shadow: 2px 2px 0 #000, -2px -2px 0 #000;
+    }
+
+    .text-stroke-black {
+        -webkit-text-stroke: 1.1px black;
+    }
+
+    .text-stroke-white {
+        -webkit-text-stroke: 1px white;
+    }
+
+
+}
+
+.fade-bottom {
+  -webkit-mask-image: linear-gradient(to top, transparent 0%, black 10%);
+  mask-image: linear-gradient(to top, transparent 0%, black 10%);
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
