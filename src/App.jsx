@@ -14,7 +14,7 @@ const characters = [
   {
     name: "Asper",
     image: "./asper.png",
-    imageStyle: "character absolute top-[50%] sm:top-[44%] w-[180px] sm:w-[220px] md:w-[250px] lg:w-[300px] lg:top-[30%] lg:left-[38%] transform scale-[1.8]",
+    imageStyle: "character absolute bottom-[10%] sm:bottom-auto sm:top-[44%] w-[180px] sm:w-[220px] md:w-[250px] lg:w-[300px] lg:top-[30%] lg:left-[38%] transform scale-[1.8]",
     gradient: "bg-gradient-to-r from-rose-900 to-zinc-900",
   },
   {
@@ -32,13 +32,13 @@ const characters = [
   {
     name: "Zenji",
     image: "./zenji2.png",
-    imageStyle: "character absolute top-[52%] sm:top-[45%] w-[150px] sm:w-[180px] md:w-[220px] lg:w-[250px] lg:top-[30%] lg:left-[40%] transform scale-[2.1]",
+    imageStyle: "character absolute bottom-[10%] sm:bottom-auto sm:top-[45%] w-[150px] sm:w-[180px] md:w-[220px] lg:w-[250px] lg:top-[30%] lg:left-[40%] transform scale-[2.1]",
     gradient: "bg-gradient-to-r from-emerald-900 to-stone-900",
   },
   {
     name: "Rio",
     image: "./rio.png",
-    imageStyle: "character absolute top-[55%] sm:top-[45%] w-[150px] sm:w-[180px] md:w-[220px] lg:w-[250px] lg:top-[25%] lg:left-[38%] transform scale-[2.1]",
+    imageStyle: "character absolute bottom-[10%] sm:bottom-auto sm:top-[45%] w-[150px] sm:w-[180px] md:w-[220px] lg:w-[250px] lg:top-[25%] lg:left-[38%] transform scale-[2.1]",
     gradient: "bg-gradient-to-r from-orange-500 to-amber-700",
   },
   {
