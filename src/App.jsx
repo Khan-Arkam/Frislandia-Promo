@@ -218,7 +218,7 @@ function App() {
                     textAnchor="middle"
                     fill="white"
                     dominantBaseline="middle"
-                    fontFamily="Carnevalee Freakshow"
+                    fontFamily="CarnevaleeFreakshow"
                   >
                     FRISLANDIA
                   </text>
@@ -260,7 +260,7 @@ function App() {
               <div className="text-wrapper w-full absolute top-[80px] sm:top-[130px] md:top-[120px] lg:top-[100px] xl:top-[40px] left-0 flex justify-center z-10">
                 <div
                   ref={charNameRef}
-                  className="text text-white whitespace-nowrap flex items-center gap-5 md:gap-10 scale-[1.2] md:scale-[1.5] rotate-[-10deg] font-[Carnevalee_Freakshow]"
+                  className="text text-white whitespace-nowrap flex items-center gap-5 md:gap-10 scale-[1.2] md:scale-[1.5] rotate-[-10deg] font-[CarnevaleeFreakshow]"
                 >
                   <h1 className={`text-[2.5rem] md:text-[6rem] leading-none bg-clip-text text-transparent ${currentCharacter.gradient} text-stroke-black`}>
                     {currentCharacter.name}
